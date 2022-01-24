@@ -39,7 +39,8 @@ const addTask = function (task, id, done, trash) {
 //  add task
 listAdd.addEventListener("keyup", function (e) {
   if (e.code === "Enter") {
-    const task = inputEl.value;
+    const todo = inputEl.value;
+    const task = todo[0].toUpperCase() + todo.slice(1);
     if (!task) {
     } else {
       addTask(task, id, false, false);

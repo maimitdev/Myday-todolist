@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $color--primary--1;
+  &__clear {
+    align-self: flex-end;
+    margin: 10px 20px;
+  }
+  i {
+    text-shadow: 1px 1px 1px $color--primary--1;
+  }
+  .fa {
+    font-size: 24px;
+  }
+  &__date {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+//10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98

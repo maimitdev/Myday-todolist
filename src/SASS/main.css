@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  color: #34373d;
+}
+
+i {
+  font-size: 18px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #eeebeb;
+}
+.header__clear {
+  align-self: flex-end;
+  margin: 10px 20px;
+}
+.header i {
+  text-shadow: 1px 1px 1px #eeebeb;
+}
+.header .fa {
+  font-size: 24px;
+}
+.header__date {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.list {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 60vh;
+  gap: 8px;
+}
+.list .complete {
+  text-decoration: line-through;
+  color: #ada9a9;
+}
+.list__item {
+  padding: 14px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.list__item .fa.fa-check-circle {
+  color: rgba(78, 124, 32, 0.863);
+}
+.list__item .fa.del {
+  margin-left: auto;
+}
+.list__item--text {
+  margin-left: 14px;
+}
+.list__add {
+  position: fixed;
+  bottom: 40px;
+  width: 440px;
+  font-size: 18px;
+  padding: 18px;
+  background-color: white;
+  border-radius: 5px;
+}
+.list__add .fa {
+  color: #acabab;
+}
+.list__add--task {
+  display: inline-block;
+  font-size: inherit;
+  border: none;
+  background: none;
+  margin-left: 10px;
+  outline: none;
+}
+
+.list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.list__item:hover {
+  background-color: #f5f5f5;
+}
+
+.container {
+  background-image: url("/src/img/myday.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  margin: 5px auto;
+  border-radius: 12px 12px 0 0;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(196, 193, 193, 0.5);
+}
+
+.content {
+  margin: 10px 30px;
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */

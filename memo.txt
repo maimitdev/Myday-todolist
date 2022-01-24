@@ -1,0 +1,52 @@
+           /*  App theo dõi mục tiêu - App dễ sử dụng */
+I, USER STORIES
+
+As a [type of user], I want [an action] so that [a benefit]
+
+      1.  Là một người dùng, mình muốn list ra tasks, để mình có thể biết là hôm nay mình sẽ làm gì.
+
+      2. Là một người dùng, mình muốn gạch bỏ, những task đã làm, để mình biết là cái nào làm rồi, cái nào chưa.
+
+      3. Là một người dùng mình muốn lưu lại task ngày hôm qua và những hôm trước mình đã làm, nhìn thấy list đã làm, để mình có động lực cho ngày hôm nay tiếp (theo dõi quá trình thực hiện muc tiêu)
+
+      4. Là một người dùng, mình muốn tự tạo ra roadmap mục tiêu, chia nhỏ mục tiêu, tạo list sẵn, để mình biết m cần làm những việc gì.
+
+      5. Là người dùng, mình muốn hiển thị sẵn cái list m đã tạo, đến ngày chỉ việc học
+
+      6. Là một người dùng, mình muốn theo dõi performent, nhìn thấy được mình thực hiện bao nhiêu task, bao nhiêu phần trăm trong road map.
+
+      7. Là người dùng, mình muốn xem được tất cả những gì mình đã làm được, công việc, sức khỏe, để biết mình đã đạt được gì trong năm qua.
+
+      8. Là một người dùng, mình muốn dùng cái app đơn giản dễ sử dụng
+
+      // them Feature phần thưởng sau mỗi nút, xem xét có thêm có nút ấn màu xan tự chạy sau khi hoàn thành task
+
+II, FEATURE
+
+1. List ra task: 
+   + input function: Người dùng nhập task
+   +  display ra task đó ra màn hình 
+
+2. Gạch bỏ task
+   + checkbox function: Chuyển task đã được check sang phần đã hoàn thành
+
+3. Lưu lại task đã làm:  
+   + Save function: Hiển thị tất cả các list đã được check.
+
+4. Tạo roadmap mục tiêu
+   + Chức năng kéo thả các ô để tạo roadmap
+   + Hoặc dùng roadmap, biểu đồ có sẵn 
+   + Add ngày băt đầu và ngày kết thúc 
+   
+5. Hiển thị sẵn cái list m đã tạo
+  +  upload function: tự động upload sang bên to do list, hiển thị task theo ngày mà người dùng đã set 
+
+6. Theo dõi performent
+   + function update: task được check tới đâu, roadmap fill tới đó 
+   + Hiển thị phần trăm đã thực hiện
+   + Sau khi hoàn thành mỗi node thì hiển thị phần quà mà user đã set
+
+7. xem được tất cả những gì mình đã làm được
+   + chuyển goal đã đạt được vào trong mục này 
+
+8. ok yepppp mee too 
